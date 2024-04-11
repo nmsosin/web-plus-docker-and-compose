@@ -1,10 +1,10 @@
 # Докеризация приложения
 
 ## IP-адрес:
-***.***.**.**
+158.160.144.98
 
 ## Frontend:
-[Здесь будет ссылка]()
+[https://kpd.nms.nomoredomainswork.ru](https://kpd.nms.nomoredomainswork.ru)
 
 ## Backend:
-[Здесь будет ссылка]()
+[https://api.kpd.nms.nomoredomainswork.ru](https://api.kpd.nms.nomoredomainswork.ru)
