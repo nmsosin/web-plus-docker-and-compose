@@ -30,7 +30,6 @@ services:
       - ./.env
     volumes:
       - postgres_data:/data/postgres
-      -
   adminer:
     image: adminer
     ports:
