@@ -13,6 +13,7 @@ services:
       - ./.env
     networks:
       - backend
+
   frontend:
     container_name: post-frontend
     build:
@@ -23,6 +24,7 @@ services:
       - 8080:80
     networks:
       - frontend
+
   postgres:
     container_name: postgres
     image: postgres
@@ -30,6 +32,9 @@ services:
       - ./.env
     volumes:
       - postgres_data:/data/postgres
+    networks:
+      - backend
+
   adminer:
     image: adminer
     ports:
